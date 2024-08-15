@@ -1,0 +1,23 @@
+.name {
+  color: #24292f;
+  font-family: 'Inter';
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 1.02px;
+}
+
+.buttonContainer {
+  display: flex;
+  width: 165px;
+  padding: 14px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 2vh;
+  color: #ffffff;
+  border-radius: 10px;
+  background: #24292f;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+}
