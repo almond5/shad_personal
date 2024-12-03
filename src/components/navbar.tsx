@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export default function Navbar() {
   return (
-    <div className="flex h-20 w-full shrink-0 items-center px-4 md:px-6">
+    <div className="fixed top-0 left-0 right-0 z-50 flex h-20 w-full shrink-0 items-center justify-end px-4 md:px-6 bg-white shadow-md">
       <Sheet>
         <SheetTrigger asChild>
           <Button className="lg:hidden" size="icon" variant="outline">
