@@ -7,6 +7,14 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from './ui/carousel';
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from '@/components/ui/card';
 
 export default function Projects() {
   const [api, setApi] = React.useState<CarouselApi>();
@@ -30,35 +38,96 @@ export default function Projects() {
       <div
         id="projects"
         style={{
-          alignSelf: 'start',
           marginLeft: '20vw',
           marginTop: '20vh',
           height: '5vh',
         }}
       ></div>
-      <Carousel
-        style={{
-          width: '80vw',
-          alignSelf: 'center',
-          borderRadius: '10px',
-          justifyContent: 'center',
-          alignContent: 'center',
-          marginLeft: '10vw',
-          marginBottom: '20vh',
-        }}
-        setApi={setApi}
-        opts={{
-          align: 'start',
-        }}
-      >
-        <CarouselContent>
-          {/* <CarouselItem className="basis-1/2" style={{height: '50vh'}}>SafeLINC</CarouselItem>
+      <div className="mx-auto" style={{ maxWidth: '70vw' }}>
+        <Carousel
+          className="mx-auto"
+          style={{
+            alignSelf: 'center',
+            borderRadius: '10px',
+            justifyContent: 'center',
+            alignContent: 'center',
+            marginBottom: '50vh',
+            width: '75rem',
+          }}
+          setApi={setApi}
+          opts={{
+            align: 'start',
+          }}
+        >
+          <CarouselContent>
+            {/* <CarouselItem className="basis-1/2" style={{height: '50vh'}}>SafeLINC</CarouselItem>
           <CarouselItem className="basis-1/2">...</CarouselItem>
           <CarouselItem className="basis-1/2">...</CarouselItem> */}
-        </CarouselContent>
-        <CarouselNext />
-        <CarouselPrevious />
-      </Carousel>
+            <CarouselItem
+              className="basis-1/3"
+              style={{
+                height: '30vh',
+              }}
+            >
+              <Card
+                style={{
+                  height: '30vh',
+                }}
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </Card>
+            </CarouselItem>
+            <CarouselItem
+              className="basis-1/3"
+              style={{
+                height: '30vh',
+              }}
+            >
+              <Card
+                style={{
+                  height: '30vh',
+                }}
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </Card>
+            </CarouselItem>
+            <CarouselItem
+              className="basis-1/3"
+              style={{
+                height: '30vh',
+              }}
+            >
+              <Card
+                style={{
+                  height: '30vh',
+                }}
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </Card>
+            </CarouselItem>
+          </CarouselContent>
+          <CarouselNext />
+          <CarouselPrevious />
+        </Carousel>
+      </div>
     </>
   );
 }

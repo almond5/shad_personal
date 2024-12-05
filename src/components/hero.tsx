@@ -16,7 +16,7 @@ export default function Hero() {
       <div
         style={{
           textAlign: 'left',
-          maxWidth: '40vh',
+          maxWidth: '36vh',
           marginRight: '3vw',
           width: '50%',
         }}
@@ -27,7 +27,14 @@ export default function Hero() {
           learn more. Please do not hesitate to contact me with any inquiries or
           if you would just like to chat.{' '}
         </div>
-        <button className={styles.buttonContainer}>Contact Me</button>
+        <button
+          className={styles.buttonContainer}
+          onClick={() => {
+            window.open('mailto:adrianhossen4@gmail.com');
+          }}
+        >
+          Contact Me
+        </button>
       </div>
       <div style={{ minWidth: '1vh' }}>
         <img src={'/me.png'} alt={'Adrian Hossen'} />

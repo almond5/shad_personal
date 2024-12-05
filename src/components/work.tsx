@@ -6,15 +6,15 @@ export default function Work() {
         style={{
           alignSelf: 'start',
           marginLeft: '20vw',
-          marginTop: '20vh',
+          marginTop: '10vh',
           height: '5vh',
         }}
       ></div>
       <div
+        className="mx-auto"
         style={{
           display: 'flex',
-          marginLeft: '30vw',
-          maxWidth: '40%',
+          maxWidth: '44Rem',
           flexDirection: 'column',
           alignContent: 'center',
           justifyContent: 'center',
