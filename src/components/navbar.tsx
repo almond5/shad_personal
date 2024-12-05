@@ -3,6 +3,18 @@ import { SheetTrigger, SheetContent, Sheet } from '@/components/ui/sheet';
 import Link from 'next/link';
 
 export default function Navbar() {
+  const scrollToSection = (target: string) => {
+    if (target === 'home') {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      return;
+    }
+
+    const section = document.getElementById(target);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <div className="fixed top-0 left-0 right-0 z-50 flex h-16 w-full shrink-0 items-center justify-end px-4 md:px-6 bg-white shadow-md">
       <Sheet>
@@ -14,30 +26,30 @@ export default function Navbar() {
         </SheetTrigger>
         <SheetContent side="left">
           <div className="grid gap-2 py-6">
-            <Link
+            <button
               className="flex w-full items-center py-2 text-lg font-semibold text-zinc-800"
-              href="/"
+              onClick={() => scrollToSection('home')}
             >
               Home
-            </Link>
-            <Link
+            </button>
+            <button
               className="flex w-full items-center py-2 text-lg font-semibold text-zinc-800"
-              href="/about"
+              onClick={() => scrollToSection('about')}
             >
               About Me
-            </Link>
-            <Link
+            </button>
+            <button
               className="flex w-full items-center py-2 text-lg font-semibold text-zinc-800"
-              href="/about"
+              onClick={() => scrollToSection('projects')}
             >
               Projects
-            </Link>
-            <Link
+            </button>
+            <button
               className="flex w-full items-center py-2 text-lg font-semibold text-zinc-800"
-              href="/about"
+              onClick={() => scrollToSection('work')}
             >
               Experience
-            </Link>
+            </button>
             <Link
               className="flex w-full items-center py-2 text-lg font-semibold text-zinc-800"
               href="mailto:adrianhossen5@gmail.com"
@@ -48,30 +60,30 @@ export default function Navbar() {
         </SheetContent>
       </Sheet>
       <nav className="ml-auto hidden lg:flex gap-6">
-        <Link
+        <button
           className="group inline-flex h-9 w-max items-center justify-center rounded-md bg-white px-4 py-2 text-md font-medium transition-colors hover:bg-gray-100 hover:text-gray-900 focus:bg-gray-100 focus:text-gray-900 focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-gray-100/50 data-[state=open]:bg-gray-100/50 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/50"
-          href="/"
+          onClick={() => scrollToSection('home')}
         >
           Home
-        </Link>
-        <Link
+        </button>
+        <button
           className="group inline-flex h-9 w-max items-center justify-center rounded-md bg-white px-4 py-2 text-md font-medium transition-colors hover:bg-gray-100 hover:text-gray-900 focus:bg-gray-100 focus:text-gray-900 focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-gray-100/50 data-[state=open]:bg-gray-100/50 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/50"
-          href="/about"
+          onClick={() => scrollToSection('about')}
         >
           About Me
-        </Link>
-        <Link
+        </button>
+        <button
           className="group inline-flex h-9 w-max items-center justify-center rounded-md bg-white px-4 py-2 text-md font-medium transition-colors hover:bg-gray-100 hover:text-gray-900 focus:bg-gray-100 focus:text-gray-900 focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-gray-100/50 data-[state=open]:bg-gray-100/50 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/50"
-          href="/experience"
+          onClick={() => scrollToSection('work')}
         >
           Experience
-        </Link>
-        <Link
+        </button>
+        <button
           className="group inline-flex h-9 w-max items-center justify-center rounded-md bg-white px-4 py-2 text-md font-medium transition-colors hover:bg-gray-100 hover:text-gray-900 focus:bg-gray-100 focus:text-gray-900 focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-gray-100/50 data-[state=open]:bg-gray-100/50 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/50"
-          href="/projects"
+          onClick={() => scrollToSection('projects')}
         >
           Projects
-        </Link>
+        </button>
       </nav>
     </div>
   );
