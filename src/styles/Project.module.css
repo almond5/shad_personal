@@ -1,10 +1,37 @@
 .cards {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-  max-width: 53rem;
+  gap: 16px;
+  max-width: 50rem;
+}
+
+.cardsMobile {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  max-width: 25rem;
+}
+
+.carouselMobile {
+  max-width: 24rem;
   margin: 0 auto;
-  margin-bottom: 15vh;
   margin-top: 5vh;
+}
+
+.carousel {
+  max-width: 49rem;
+  margin: 0 auto;
+  margin-top: 5vh;
+}
+
+@media (max-width: 870px) {
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    max-width: 25rem;
+    margin: 0 auto;
+    margin-bottom: 15vh;
+    margin-top: 5vh;
+  }
 }
 

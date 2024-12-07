@@ -1,5 +1,10 @@
 import { Button } from '@/components/ui/button';
-import { SheetTrigger, SheetContent, Sheet } from '@/components/ui/sheet';
+import {
+  SheetTrigger,
+  SheetContent,
+  Sheet,
+  SheetClose,
+} from '@/components/ui/sheet';
 import Link from 'next/link';
 
 export default function Navbar() {
@@ -26,36 +31,54 @@ export default function Navbar() {
         </SheetTrigger>
         <SheetContent side="left">
           <div className="grid gap-2 py-6">
-            <button
-              className="flex w-full items-center py-2 text-lg font-semibold text-zinc-800"
-              onClick={() => scrollToSection('home')}
-            >
-              Home
-            </button>
-            <button
-              className="flex w-full items-center py-2 text-lg font-semibold text-zinc-800"
-              onClick={() => scrollToSection('about')}
-            >
-              About Me
-            </button>
-            <button
-              className="flex w-full items-center py-2 text-lg font-semibold text-zinc-800"
-              onClick={() => scrollToSection('projects')}
-            >
-              Projects
-            </button>
-            <button
-              className="flex w-full items-center py-2 text-lg font-semibold text-zinc-800"
-              onClick={() => scrollToSection('work')}
-            >
-              Experience
-            </button>
-            <Link
-              className="flex w-full items-center py-2 text-lg font-semibold text-zinc-800"
-              href="mailto:adrianhossen5@gmail.com"
-            >
-              Contact
-            </Link>
+            <SheetClose asChild>
+              <button
+                className="flex w-full items-center py-2 text-lg font-semibold text-zinc-800"
+                onClick={() => scrollToSection('home')}
+              >
+                Home
+              </button>
+            </SheetClose>
+            <SheetClose asChild>
+              <button
+                className="flex w-full items-center py-2 text-lg font-semibold text-zinc-800"
+                onClick={() => scrollToSection('about')}
+              >
+                About Me
+              </button>
+            </SheetClose>
+            <SheetClose asChild>
+              <button
+                className="flex w-full items-center py-2 text-lg font-semibold text-zinc-800"
+                onClick={() => scrollToSection('projects')}
+              >
+                Projects
+              </button>
+            </SheetClose>
+            <SheetClose asChild>
+              <button
+                className="flex w-full items-center py-2 text-lg font-semibold text-zinc-800"
+                onClick={() => scrollToSection('work')}
+              >
+                Experience
+              </button>
+            </SheetClose>
+            <SheetClose asChild>
+              <Link
+                className="flex w-full items-center py-2 text-lg font-semibold text-zinc-800"
+                href="mailto:adrianhossen5@gmail.com"
+              >
+                Contact
+              </Link>
+            </SheetClose>
+            <SheetClose asChild>
+              <Link
+                className="flex w-full items-center py-2 text-lg font-semibold text-zinc-800"
+                href="/resume.pdf"
+              >
+                Resume
+              </Link>
+            </SheetClose>
           </div>
         </SheetContent>
       </Sheet>

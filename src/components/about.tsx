@@ -17,6 +17,7 @@ export default function About() {
         style={{
           display: 'flex',
           maxWidth: '36rem',
+          padding: '0 1.5rem',
           flexDirection: 'column',
           alignContent: 'center',
           justifyContent: 'center',
@@ -24,7 +25,7 @@ export default function About() {
           alignSelf: 'center',
           marginTop: '5vh',
           textAlign: 'left',
-          marginBottom: '10vh',
+          marginBottom: '5vh',
         }}
       >
         <a
@@ -165,7 +166,7 @@ export default function About() {
             <a>Figma</a>
           </li>
           <li>
-            <a>TailwindCSS</a>
+            <a>Tailwind</a>
           </li>
         </ul>
       </div>

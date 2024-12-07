@@ -14,7 +14,8 @@ export default function Work() {
         className="mx-auto"
         style={{
           display: 'flex',
-          maxWidth: '44Rem',
+          maxWidth: '42Rem',
+          padding: '0 1.5Rem',
           flexDirection: 'column',
           alignContent: 'center',
           justifyContent: 'center',

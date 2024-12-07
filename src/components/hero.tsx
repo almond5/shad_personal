@@ -11,17 +11,11 @@ export default function Hero() {
         textAlign: 'center',
         width: '100%', // Ensure the parent container takes full width
         justifyContent: 'center', // Center the child elements
+        padding: '0 5vw',
       }}
     >
-      <div
-        style={{
-          textAlign: 'left',
-          maxWidth: '36vh',
-          marginRight: '3vw',
-          width: '50%',
-        }}
-      >
-        <a className={styles.name}>Hello, I'm Adrian</a>
+      <div className={styles.heroContainer}>
+        <span className={styles.name}>Hello, I'm Adrian</span>
         <div style={{ marginTop: '0.5vh' }}>
           I am a software developer with a growth mindset who is always eager to
           learn more. Please do not hesitate to contact me with any inquiries or
@@ -36,8 +30,13 @@ export default function Hero() {
           Contact Me
         </button>
       </div>
-      <div style={{ minWidth: '1vh' }}>
-        <img src={'/me.png'} alt={'Adrian Hossen'} />
+      <div className={styles.imgContainer}>
+        <img
+          src={'/me.png'}
+          alt={'Adrian Hossen'}
+          style={{ width: 'inherit' }}
+          className={styles.img}
+        />
       </div>
     </div>
   );

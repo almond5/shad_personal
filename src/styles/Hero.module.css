@@ -10,7 +10,7 @@
 
 .buttonContainer {
   display: flex;
-  width: 165px;
+  width: 140px;
   padding: 14px 24px;
   justify-content: center;
   align-items: center;
@@ -20,4 +20,33 @@
   border-radius: 10px;
   background: #24292f;
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+}
+
+.heroContainer {
+  text-align: left;
+  max-width: 36vh;
+  margin-right: 2vw;
+  width: 50%;
+}
+
+.imgContainer {
+  width: 30vw;
+  max-width: 14rem;
+}
+
+@media (max-width: 780px) {
+  .img {
+    width: 0;
+    height: 0;
+  }
+  .heroContainer {
+    text-align: left;
+    max-width: 36vh;
+    margin-right: 0;
+    width: 100%;
+  }
+  .imgContainer {
+    width: 0;
+    height: 0;
+  }
 }
