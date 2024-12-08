@@ -24,7 +24,7 @@
 
 .heroContainer {
   text-align: left;
-  max-width: 36vh;
+  max-width: 22rem;
   margin-right: 2vw;
   width: 50%;
 }
@@ -41,7 +41,7 @@
   }
   .heroContainer {
     text-align: left;
-    max-width: 36vh;
+    max-width: 40vh;
     margin-right: 0;
     width: 100%;
   }

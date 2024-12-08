@@ -100,7 +100,7 @@ export default function About() {
             <a>SCOPE</a>
           </li>
           <li>
-            <a>KQL</a>
+            <a>R</a>
           </li>
         </ul>
         <a style={{ marginTop: '2vh', fontWeight: 800 }}>Databases</a>
@@ -167,6 +167,9 @@ export default function About() {
           </li>
           <li>
             <a>Tailwind</a>
+          </li>
+          <li>
+            <a>R-Studio</a>
           </li>
         </ul>
       </div>
