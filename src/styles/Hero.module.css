@@ -1,5 +1,4 @@
 .name {
-  color: #24292f;
   font-family: 'Inter';
   font-size: 34px;
   font-style: normal;
@@ -11,15 +10,14 @@
 .buttonContainer {
   display: flex;
   width: 140px;
-  padding: 14px 24px;
+  padding: 24px 24px;
+  font-size: medium;
+  font-weight: 600;
   justify-content: center;
   align-items: center;
   gap: 10px;
   margin-top: 2vh;
-  color: #ffffff;
   border-radius: 10px;
-  background: #24292f;
-  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
 }
 
 .heroContainer {
