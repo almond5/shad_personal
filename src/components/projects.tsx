@@ -201,7 +201,7 @@ export default function Projects() {
                   Developed a personal portfolio to showcase myself along with
                   my skills, work experience, and projects. Leveraged
                   TypeScript, React, Next.js, Shadcn, DaisyUI, and TailwindCSS
-                  to create the portfolio. The portfolio is hosted using Vercel.
+                  to create the portfolio. The portfolio is hosted using Netlify.
                   The portfolio is responsive, snappy, and mobile-friendly while
                   following a minimalistic design.
                 </CardContent>
@@ -213,7 +213,7 @@ export default function Projects() {
                     <a>Shadcn</a>
                     <a>DaisyUI</a>
                     <a>TailwindCSS</a>
-                    <a>Vercel</a>
+                    <a>Netlify</a>
                   </CardFooter>
                 </div>
               </Card>
