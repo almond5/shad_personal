@@ -53,7 +53,7 @@ export default function About() {
           }}
         >
           I&apos;m passionate about full-stack software development, artificial
-          intelligence, and machine learning. I'm always looking for new
+          intelligence, and machine learning. I&apos;m always looking for new
           opportunities to learn and grow. If you would like to discuss any
           opportunities, please feel free to reach out to me via email or
           LinkedIn.
