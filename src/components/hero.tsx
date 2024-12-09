@@ -16,7 +16,7 @@ export default function Hero() {
       }}
     >
       <div className={styles.heroContainer}>
-        <span className={styles.name}>Hello, I'm Adrian</span>
+        <span className={styles.name}>Hello, I&apos;m Adrian</span>
         <div style={{ marginTop: '0.5vh' }}>
           I am a software developer with a growth mindset who is always eager
           to learn more. Please do not hesitate to contact me with any
