@@ -60,7 +60,6 @@ export default function Footer() {
         </Link>
       </div>
       <Button
-        style={{ position: 'absolute', right: 20, marginBottom: 10 }}
         className={styles.buttonContainer}
         onClick={() => {
           window.scrollTo({ top: 0, behavior: 'smooth' });

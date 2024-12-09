@@ -66,8 +66,6 @@ export default function Projects() {
       ></div>
       {isMobile && (
         <Carousel className={styles.carouselMobile} setApi={setApi}>
-          <CarouselNext isMobile={isMobile}></CarouselNext>
-          <CarouselPrevious isMobile={isMobile}></CarouselPrevious>
           <CarouselContent>
             <CarouselItem className={styles.cardsMobile}>
               <Card
