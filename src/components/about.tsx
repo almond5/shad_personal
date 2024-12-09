@@ -42,9 +42,9 @@ export default function About() {
             marginBottom: '2vh',
           }}
         >
-          Greetings, my name is Adrian Hossen and I'm an incoming Software
+          Greetings, my name is Adrian Hossen and I&apos;m an incoming Software
           Engineer @ Microsoft. I recently graduated from the University of
-          Central Florida with a Bachelor's in Computer Science (Summa Cum
+          Central Florida with a Bachelor&apos;s in Computer Science (Summa Cum
           Laude).
         </a>
         <a
@@ -52,7 +52,7 @@ export default function About() {
             marginBottom: '2vh',
           }}
         >
-          I'm passionate about full-stack software development, artificial
+          I&apos;m passionate about full-stack software development, artificial
           intelligence, and machine learning. I'm always looking for new
           opportunities to learn and grow. If you would like to discuss any
           opportunities, please feel free to reach out to me via email or

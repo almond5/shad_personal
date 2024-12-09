@@ -88,7 +88,7 @@ export default function Projects() {
                   system, integrated a Calendly appointment scheduling &
                   tracking system, translated the app in 4 languages, and
                   improved app loading times by 200%. Leveraged AWS Lambda to
-                  apply styled HTML/CSS templates to the app's emails in 4
+                  apply styled HTML/CSS templates to the app&apos;s emails in 4
                   languages. Leveraged AWS EventBridge & Lambda to create 4
                   recurring hydration jobs.
                 </CardContent>
@@ -117,7 +117,7 @@ export default function Projects() {
                   Models included GPT-2, BioGPT, BioBERT, BERT, Clinical-BERT,
                   DistilBERT, MedBERT, PubMedBERT, & BlueBERT. Performed
                   experimentation with varying training splits to highlight the
-                  models' few-shot learning capabiltities. Results indicated
+                  models&apos; few-shot learning capabiltities. Results indicated
                   that PubMedBERT was the best performing model boasting a mean
                   accuracy of 84%.
                 </CardContent>
@@ -135,13 +135,13 @@ export default function Projects() {
               >
                 <CardHeader>
                   <CardTitle>PetPals</CardTitle>
-                  <CardDescription>"Dating" App for Pets</CardDescription>
+                  <CardDescription>&quot;Dating&quot; App for Pets</CardDescription>
                 </CardHeader>
                 <CardContent>
                   Created a pal app for pets in which pet owners can create
                   profiles for their pets to connect with others. Pet owners can
                   create profiles for their pets, swipe through pets, match with
-                  pets, and view their matches. I facilitated the app's API
+                  pets, and view their matches. I facilitated the app&apos;s API
                   routes, page routing, session management, image rendering,
                   database queries, and hosting / deployment. Fulfilled the
                   positions of PM and Tech Lead by managing a team of 6
@@ -166,12 +166,12 @@ export default function Projects() {
                 <CardHeader>
                   <CardTitle>Water Quality Regression Analysis</CardTitle>
                   <CardDescription>
-                    Linear Regression Analysis of Virginia's Backbay Refuge
+                    Linear Regression Analysis of Virginia&apos;s Backbay Refuge
                     Water Quality Data
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
-                  Conducted linear regression analysis on Virginia's Backbay
+                  Conducted linear regression analysis on Virginia&apos;s Backbay
                   Refuge water quality data to determine the relationship
                   between water quality predictors and dissolved oxygen levels.
                   Conducted exploratory data analysis to identify key predictors
@@ -279,7 +279,6 @@ export default function Projects() {
               </Card>
             </CarouselItem>
             <CarouselItem className={styles.cardsMobile}>
-              {' '}
               <Card
                 style={{
                   height: '21.5rem',
@@ -337,7 +336,7 @@ export default function Projects() {
                   system, integrated a Calendly appointment scheduling &
                   tracking system, translated the app in 4 languages, and
                   improved app loading times by 200%. Leveraged AWS Lambda to
-                  apply styled HTML/CSS templates to the app's emails in 4
+                  apply styled HTML/CSS templates to the app&apos;s emails in 4
                   languages. Leveraged AWS EventBridge & Lambda to create 4
                   recurring hydration jobs.
                 </CardContent>
@@ -364,7 +363,7 @@ export default function Projects() {
                   Models included GPT-2, BioGPT, BioBERT, BERT, Clinical-BERT,
                   DistilBERT, MedBERT, PubMedBERT, & BlueBERT. Performed
                   experimentation with varying training splits to highlight the
-                  models' few-shot learning capabiltities. Results indicated
+                  models&apos; few-shot learning capabiltities. Results indicated
                   that PubMedBERT was the best performing model boasting a mean
                   accuracy of 84%.
                 </CardContent>
@@ -380,13 +379,13 @@ export default function Projects() {
               >
                 <CardHeader>
                   <CardTitle>PetPals</CardTitle>
-                  <CardDescription>"Dating" App for Pets</CardDescription>
+                  <CardDescription>&quot;Dating&quot; App for Pets</CardDescription>
                 </CardHeader>
                 <CardContent>
                   Created a pal app for pets in which pet owners can create
                   profiles for their pets to connect with others. Pet owners can
                   create profiles for their pets, swipe through pets, match with
-                  pets, and view their matches. I facilitated the app's API
+                  pets, and view their matches. I facilitated the app&apos;s API
                   routes, page routing, session management, image rendering,
                   database queries, and hosting / deployment. Fulfilled the
                   positions of PM and Tech Lead by managing a team of 6
@@ -409,12 +408,12 @@ export default function Projects() {
                 <CardHeader>
                   <CardTitle>Water Quality Regression Analysis</CardTitle>
                   <CardDescription>
-                    Linear Regression Analysis of Virginia's Backbay Refuge
+                    Linear Regression Analysis of Virginia&apos;s Backbay Refuge
                     Water Quality Data
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
-                  Conducted linear regression analysis on Virginia's Backbay
+                  Conducted linear regression analysis on Virginia&apos;s Backbay
                   Refuge water quality data to determine the relationship
                   between water quality predictors and dissolved oxygen levels.
                   Conducted exploratory data analysis to identify key predictors
