@@ -110,7 +110,7 @@ export default function Projects() {
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
-                  Fine-tuned & compared 9 GPT & Bert models in terms of accuracy
+                  Fine-tuned & compared 9 GPT & BERT-based models in terms of accuracy
                   when answering biomedical questions from the PubMedQA dataset.
                   Models included GPT-2, BioGPT, BioBERT, BERT, Clinical-BERT,
                   DistilBERT, MedBERT, PubMedBERT, & BlueBERT. Performed
