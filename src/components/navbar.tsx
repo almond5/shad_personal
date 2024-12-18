@@ -24,7 +24,7 @@ export default function Navbar() {
   return (
     <div className="fixed top-0 left-0 right-0 z-50 flex h-16 w-full shrink-0 items-center justify-end px-4 md:px-6 bg-white shadow-md dark:bg-inherit dark:outline outline-1 outline-gray-300">
       <ModeToggle></ModeToggle>
-      <div className='ml-auto'>
+      <div className="ml-auto">
         <Sheet>
           <SheetTrigger asChild>
             <Button className="lg:hidden" size="icon" variant="outline">
@@ -68,7 +68,7 @@ export default function Navbar() {
               </SheetClose>
               <SheetClose asChild>
                 <Link
-                  className="flex w-full items-center py-2 text-lg font-semibold text-zinc-800"
+                  className="flex w-full items-center py-2 text-lg font-semibold"
                   href="mailto:adrianhossen5@gmail.com"
                 >
                   Contact
@@ -76,7 +76,7 @@ export default function Navbar() {
               </SheetClose>
               <SheetClose asChild>
                 <Link
-                  className="flex w-full items-center py-2 text-lg font-semibold text-zinc-800"
+                  className="flex w-full items-center py-2 text-lg font-semibold"
                   href="/resume.pdf"
                 >
                   Resume
@@ -111,6 +111,12 @@ export default function Navbar() {
         >
           Projects
         </button>
+        <Link
+          className="group inline-flex h-9 w-max items-center justify-center rounded-md px-4 py-2 text-md font-medium transition-colors hover:bg-gray-100 hover:text-gray-900 focus:bg-gray-100 focus:text-gray-900 focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-gray-100/50 data-[state=open]:bg-gray-100/50 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/50"
+          href={'/resume.pdf'}
+        >
+          Resume
+        </Link>
       </nav>
     </div>
   );
