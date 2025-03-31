@@ -42,7 +42,7 @@ export default function About() {
             marginBottom: '2vh',
           }}
         >
-          Greetings, my name is Adrian Hossen and I&apos;m an incoming Software
+          Greetings, my name is Adrian Hossen and I&apos;m a Software
           Engineer @ Microsoft. I recently graduated from the University of
           Central Florida with a Bachelor&apos;s in Computer Science (Summa Cum
           Laude).
