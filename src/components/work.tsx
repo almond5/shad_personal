@@ -44,7 +44,7 @@ export default function Work() {
             <div className="timeline-start mb-10 md:text-end">
               <time className="font-mono italic">Microsoft | Current</time>
               <div className="text-lg font-black">Software Engineer</div>
-              Working with the Microsoft AI Team.
+              Working under the CoreUX team.
             </div>
             <hr />
           </li>
