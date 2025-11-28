@@ -23,6 +23,7 @@ export default function Work() {
           alignSelf: 'center',
           marginTop: '5vh',
           textAlign: 'left',
+          marginBottom: '4vh'
         }}
       >
         <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
@@ -44,7 +45,7 @@ export default function Work() {
             <div className="timeline-start mb-10 md:text-end">
               <time className="font-mono italic">Microsoft | Current</time>
               <div className="text-lg font-black">Software Engineer</div>
-              Working under the CoreUX team.
+              Working under the MSN CoreUX team.
             </div>
             <hr />
           </li>

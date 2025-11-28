@@ -25,7 +25,7 @@ export default function About() {
           alignSelf: 'center',
           marginTop: '5vh',
           textAlign: 'left',
-          marginBottom: '10vh',
+          marginBottom: '8vh',
         }}
       >
         <a

@@ -15,7 +15,7 @@ export default function Chevron({ targetId }: ChevronProps) {
 
   return (
     <div>
-      <div style={{ textAlign: 'center', marginTop: '4vh' }}>
+      <div style={{ textAlign: 'center' }}>
         <button
           style={{
             background: 'none',

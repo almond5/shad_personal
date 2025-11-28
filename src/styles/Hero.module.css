@@ -32,6 +32,11 @@
   max-width: 14rem;
 }
 
+.img {
+  corner-shape: squircle;
+  border-radius: 50px;
+}
+
 @media (max-width: 780px) {
   .img {
     width: 0;

@@ -23,6 +23,11 @@
   margin-top: 5vh;
 }
 
+.card {
+  border-radius: 42px;
+  corner-shape: squircle;
+}
+
 /* @media (max-width: 900px) {
   .cards {
     display: grid;

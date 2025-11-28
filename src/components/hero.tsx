@@ -9,7 +9,7 @@ export default function Hero() {
         display: 'flex', // Use Flexbox
         alignItems: 'center', // Center the child elements vertically
         justifyContent: 'center', // Center the child elements horizontally
-        height: '100vh', // Ensure the parent container takes full height
+        height: '96vh', // Ensure the parent container takes 96vh - giving space to chevron
         textAlign: 'center',
         width: '100%', // Ensure the parent container takes full width
         padding: '0 5vw',
@@ -35,7 +35,7 @@ export default function Hero() {
         <img
           src={'/me.png'}
           alt={'Adrian Hossen'}
-          style={{ width: 'inherit' }}
+          style={{ width: 'inherit', borderRadius: '50px'}}
           className={styles.img}
         />
       </div>

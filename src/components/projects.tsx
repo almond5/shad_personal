@@ -316,11 +316,7 @@ export default function Projects() {
           <CarouselPrevious isMobile={false}></CarouselPrevious>
           <CarouselContent>
             <CarouselItem className={styles.cards}>
-              <Card
-                style={{
-                  height: '21.5rem',
-                }}
-              >
+            <Card className={styles.card}>
                 <CardHeader>
                   <CardTitle>SafeLINC</CardTitle>
                   <CardDescription>
@@ -343,11 +339,7 @@ export default function Projects() {
                   <a>JavaScript</a>
                 </CardFooter>
               </Card>
-              <Card
-                style={{
-                  height: '21.5rem',
-                }}
-              >
+              <Card className={styles.card}>
                 <CardHeader>
                   <CardTitle>9 Models on Biomedical Q&A</CardTitle>
                   <CardDescription>
@@ -370,11 +362,7 @@ export default function Projects() {
                   <a>PyTorch</a>
                 </CardFooter>
               </Card>
-              <Card
-                style={{
-                  height: '21.5rem',
-                }}
-              >
+              <Card className={styles.card}>
                 <CardHeader>
                   <CardTitle>PetPals</CardTitle>
                   <CardDescription>&quot;Dating&quot; App for Pets</CardDescription>
@@ -398,11 +386,7 @@ export default function Projects() {
                   <a>NoSQL</a>
                 </CardFooter>
               </Card>
-              <Card
-                style={{
-                  height: '21.5rem',
-                }}
-              >
+              <Card className={styles.card}>
                 <CardHeader>
                   <CardTitle>Water Quality Regression Analysis</CardTitle>
                   <CardDescription>
@@ -428,11 +412,7 @@ export default function Projects() {
               </Card>
             </CarouselItem>
             <CarouselItem className={styles.cards}>
-              <Card
-                style={{
-                  height: '21.5rem',
-                }}
-              >
+            <Card className={styles.card}>
                 <CardHeader>
                   <CardTitle>Personal Portfolio</CardTitle>
                   <CardDescription>My Personal Portfolio</CardDescription>
@@ -457,11 +437,7 @@ export default function Projects() {
                   </CardFooter>
                 </div>
               </Card>
-              <Card
-                style={{
-                  height: '21.5rem',
-                }}
-              >
+              <Card className={styles.card}>
                 <CardHeader>
                   <CardTitle>University Connect</CardTitle>
                   <CardDescription>
@@ -485,11 +461,7 @@ export default function Projects() {
                   <a>NextAuth</a>
                 </CardFooter>
               </Card>
-              <Card
-                style={{
-                  height: '21.5rem',
-                }}
-              >
+              <Card className={styles.card}>
                 <CardHeader>
                   <CardTitle>Contastic</CardTitle>
                   <CardDescription>
@@ -513,11 +485,7 @@ export default function Projects() {
                   <a>MySQL</a>
                 </CardFooter>
               </Card>
-              <Card
-                style={{
-                  height: '21.5rem',
-                }}
-              >
+              <Card className={styles.card}>
                 <CardHeader>
                   <CardTitle>IMBD LSTM</CardTitle>
                   <CardDescription>
